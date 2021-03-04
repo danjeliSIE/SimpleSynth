@@ -113,6 +113,20 @@
 			isa = PBXBuildFile;
 			fileRef = FC919EAB125DB2549D2CEB94;
 		};
+		0BA153F5EB64BC1211AA995B = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_utils";
+			path = "../../JuceLibraryCode/modules/juce_audio_utils";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0F28D25AF41618E98122C79D = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_core";
+			path = "../../JuceLibraryCode/modules/juce_core";
+			sourceTree = "SOURCE_ROOT";
+		};
 		171E4EF8370FA5E84B824252 = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
@@ -120,11 +134,39 @@
 			path = System/Library/Frameworks/Cocoa.framework;
 			sourceTree = SDKROOT;
 		};
+		190B201525E4491B0B2D40B8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_gui_basics";
+			path = "../../JuceLibraryCode/modules/juce_gui_basics";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1F33661DEAE65918FBD4F2EF = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_basics";
+			path = "../../JuceLibraryCode/modules/juce_audio_basics";
+			sourceTree = "SOURCE_ROOT";
+		};
 		25A80FE00248608A4BD977D4 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.objcpp;
 			name = "include_juce_gui_basics.mm";
 			path = "../../JuceLibraryCode/include_juce_gui_basics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		26687A794AC3B0A92A0006A0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_graphics";
+			path = "../../JuceLibraryCode/modules/juce_graphics";
+			sourceTree = "SOURCE_ROOT";
+		};
+		274C49B4248CD3620D611C31 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_gui_extra";
+			path = "../../JuceLibraryCode/modules/juce_gui_extra";
 			sourceTree = "SOURCE_ROOT";
 		};
 		298279753C308F290B4EE643 = {
@@ -148,40 +190,12 @@
 			path = "../../JuceLibraryCode/include_juce_audio_utils.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
-		37E34532B69A5F72F3564037 = {
-			isa = PBXFileReference;
-			lastKnownFileType = file;
-			name = "juce_events";
-			path = "../../JUCE/modules/juce_events";
-			sourceTree = "SOURCE_ROOT";
-		};
-		3B108EE223A22396BB40ED33 = {
-			isa = PBXFileReference;
-			lastKnownFileType = file;
-			name = "juce_audio_devices";
-			path = "../../JUCE/modules/juce_audio_devices";
-			sourceTree = "SOURCE_ROOT";
-		};
 		3C20E6AA0095C4DE0255C422 = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
 			name = WebKit.framework;
 			path = System/Library/Frameworks/WebKit.framework;
 			sourceTree = SDKROOT;
-		};
-		4989DCCE714B358EFFCE2EBA = {
-			isa = PBXFileReference;
-			lastKnownFileType = file;
-			name = "juce_gui_basics";
-			path = "../../JUCE/modules/juce_gui_basics";
-			sourceTree = "SOURCE_ROOT";
-		};
-		4A64137BC051389642B2A7BC = {
-			isa = PBXFileReference;
-			lastKnownFileType = file;
-			name = "juce_audio_processors";
-			path = "../../JUCE/modules/juce_audio_processors";
-			sourceTree = "SOURCE_ROOT";
 		};
 		598D624F5EC50C01E4AB1AB0 = {
 			isa = PBXFileReference;
@@ -197,13 +211,6 @@
 			path = System/Library/Frameworks/CoreAudioKit.framework;
 			sourceTree = SDKROOT;
 		};
-		5E1FCE731D1BD582B08FC088 = {
-			isa = PBXFileReference;
-			lastKnownFileType = file;
-			name = "juce_core";
-			path = "../../JUCE/modules/juce_core";
-			sourceTree = "SOURCE_ROOT";
-		};
 		64C6BDB869A751DDE6149C7A = {
 			isa = PBXFileReference;
 			lastKnownFileType = file.nib;
@@ -211,11 +218,11 @@
 			path = RecentFilesMenuTemplate.nib;
 			sourceTree = "SOURCE_ROOT";
 		};
-		69964EF6E128DA684556CE43 = {
+		6FBD4588D4020651AF5726CB = {
 			isa = PBXFileReference;
 			lastKnownFileType = file;
-			name = "juce_gui_extra";
-			path = "../../JUCE/modules/juce_gui_extra";
+			name = "juce_data_structures";
+			path = "../../JuceLibraryCode/modules/juce_data_structures";
 			sourceTree = "SOURCE_ROOT";
 		};
 		7085F809CBC54E176E80D4D9 = {
@@ -225,18 +232,18 @@
 			path = "../../JuceLibraryCode/include_juce_audio_basics.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
-		7BA80965A2A5F995CF21752A = {
+		710501F734B22235A43A2AF5 = {
 			isa = PBXFileReference;
 			lastKnownFileType = file;
-			name = "juce_graphics";
-			path = "../../JUCE/modules/juce_graphics";
+			name = "juce_events";
+			path = "../../JuceLibraryCode/modules/juce_events";
 			sourceTree = "SOURCE_ROOT";
 		};
-		8A9C047500392452FC87AAF2 = {
+		780416BC5BA3C59A447A557A = {
 			isa = PBXFileReference;
 			lastKnownFileType = file;
-			name = "juce_audio_utils";
-			path = "../../JUCE/modules/juce_audio_utils";
+			name = "juce_audio_devices";
+			path = "../../JuceLibraryCode/modules/juce_audio_devices";
 			sourceTree = "SOURCE_ROOT";
 		};
 		8C2C8A498220247A5BBAE2A2 = {
@@ -246,11 +253,11 @@
 			path = "../../JuceLibraryCode/include_juce_data_structures.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
-		959A2829F08C31A73B0B86CE = {
+		91B8CEDA395C1CC508B31316 = {
 			isa = PBXFileReference;
 			lastKnownFileType = file;
-			name = "juce_data_structures";
-			path = "../../JUCE/modules/juce_data_structures";
+			name = "juce_audio_formats";
+			path = "../../JuceLibraryCode/modules/juce_audio_formats";
 			sourceTree = "SOURCE_ROOT";
 		};
 		97514C5D5268F1CDD74033BA = {
@@ -281,11 +288,11 @@
 			path = System/Library/Frameworks/CoreMIDI.framework;
 			sourceTree = SDKROOT;
 		};
-		B21396AB36A22E46F2BCF01E = {
+		AA7557B16807F55ADDB9B9DC = {
 			isa = PBXFileReference;
 			lastKnownFileType = file;
-			name = "juce_audio_basics";
-			path = "../../JUCE/modules/juce_audio_basics";
+			name = "juce_audio_processors";
+			path = "../../JuceLibraryCode/modules/juce_audio_processors";
 			sourceTree = "SOURCE_ROOT";
 		};
 		B480BD3371808924A524956B = {
@@ -358,13 +365,6 @@
 			path = "Info-App.plist";
 			sourceTree = "SOURCE_ROOT";
 		};
-		E78E1CCFF7275DAC0235ECF7 = {
-			isa = PBXFileReference;
-			lastKnownFileType = file;
-			name = "juce_audio_formats";
-			path = "../../JUCE/modules/juce_audio_formats";
-			sourceTree = "SOURCE_ROOT";
-		};
 		EC5F996B8C66601F934F9A83 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.cpp;
@@ -421,17 +421,17 @@
 		5A118E2A4EE98AE0D4F5AAE1 = {
 			isa = PBXGroup;
 			children = (
-				B21396AB36A22E46F2BCF01E,
-				3B108EE223A22396BB40ED33,
-				E78E1CCFF7275DAC0235ECF7,
-				4A64137BC051389642B2A7BC,
-				8A9C047500392452FC87AAF2,
-				5E1FCE731D1BD582B08FC088,
-				959A2829F08C31A73B0B86CE,
-				37E34532B69A5F72F3564037,
-				7BA80965A2A5F995CF21752A,
-				4989DCCE714B358EFFCE2EBA,
-				69964EF6E128DA684556CE43,
+				1F33661DEAE65918FBD4F2EF,
+				780416BC5BA3C59A447A557A,
+				91B8CEDA395C1CC508B31316,
+				AA7557B16807F55ADDB9B9DC,
+				0BA153F5EB64BC1211AA995B,
+				0F28D25AF41618E98122C79D,
+				6FBD4588D4020651AF5726CB,
+				710501F734B22235A43A2AF5,
+				26687A794AC3B0A92A0006A0,
+				190B201525E4491B0B2D40B8,
+				274C49B4248CD3620D611C31,
 			);
 			name = "JUCE Modules";
 			sourceTree = "<group>";
@@ -551,7 +551,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../JuceLibraryCode",
-					"$(SRCROOT)/../../JUCE/modules",
+					"$(SRCROOT)/../../JuceLibraryCode/modules",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Info-App.plist;
@@ -560,7 +560,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../JuceLibraryCode",
-					"$(SRCROOT)/../../JUCE/modules",
+					"$(SRCROOT)/../../JuceLibraryCode/modules",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SonyInteractiveEntertainment.SimpleSynth;
 				PRODUCT_NAME = "NewProject";
@@ -616,7 +616,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../JuceLibraryCode",
-					"$(SRCROOT)/../../JUCE/modules",
+					"$(SRCROOT)/../../JuceLibraryCode/modules",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Info-App.plist;
@@ -626,7 +626,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../JuceLibraryCode",
-					"$(SRCROOT)/../../JUCE/modules",
+					"$(SRCROOT)/../../JuceLibraryCode/modules",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SonyInteractiveEntertainment.SimpleSynth;
 				PRODUCT_NAME = "NewProject";
