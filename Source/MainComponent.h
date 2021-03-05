@@ -2,7 +2,7 @@
 #include <JuceHeader.h>
 
 
-class MainComponent  : public juce::AudioAppComponent, public juce::MidiKeyboardStateListener
+class MainComponent : public juce::AudioAppComponent, public juce::MidiKeyboardStateListener, public juce::Timer
 {
 public:
     MainComponent();
@@ -64,6 +64,12 @@ private:
     // device selection component
     juce::AudioDeviceSelectorComponent m_audioDeviceSelection;
     
+    
+    int m_OSCWriteIndex = 0; //oscilloscope writing index
+    std::array<float, 1024 * 4> m_oscilloscopeBuffer; // oscilloscope buffer used for drawing oscilloscope
+    
+    // Inherited via Timer
+    virtual void timerCallback() override;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };
