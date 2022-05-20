@@ -83,6 +83,9 @@ inline void MainComponent::addSineWave(juce::AudioBuffer<float>& buffer, const i
 {
 	for (int i = 0; i < numSamples; i++)
 	{
+		// m_phase01 represents a normalised phase value that wraps between 0 and 1. 
+		// 'm_' is a prefix to signify that this is a member variable.
+ 
 		m_phase01 += (m_frequency / m_sampleRate);
 		if (m_phase01 > 1.0f)
 		{
