@@ -4,7 +4,7 @@ A simple monophonic synth
 
 To run go to /Builds/your_IDE/ and find your project/solution.
 
-The project builds on VS2017, VS2019 (soultions) and MacOSX (xcode project).
+The project builds on VS2017, VS2019 (solutions) and MacOSX (xcode project).
 
 For simplicity, all UI, Logic and DSP is implemented in Source/MainComponent.h and Source/MainComponent.cpp
 
